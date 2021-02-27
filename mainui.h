@@ -29,8 +29,10 @@ public:
     QPushButton * changeLogButton;
     QPushButton * controlButton;
     QPushButton * startButton;
+    QPushButton * startallButton;
     QLineEdit   * pathEdit;
-
+    QLineEdit   * pushEdit;
+    QPushButton * pushButton;
 
 
 
@@ -44,6 +46,8 @@ protected slots:
     void controlButtonClick();
     void changeLogButtonClick();
     void startButtonClick();
+    void startallButtonClick();
+    void pushButtonClick();
     void processFinished();
 
 };
